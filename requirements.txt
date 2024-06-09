@@ -1,0 +1,6 @@
+pandas
+sckit-learn
+feature-engine
+flask
+Flask-WTF
+gunicorn
