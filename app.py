@@ -33,7 +33,7 @@ def predict():
 
         model=joblib.load("model.joblib")
         prediction=model.predict(user_data)[0]
-        message=f"The expected price of your Flight is {int(prediction)}"
+        message=f"The expected price of your Flight is {int(prediction)} INR!"
 
     else:
         message= "Enter Valid inputs to get the predictions!"
